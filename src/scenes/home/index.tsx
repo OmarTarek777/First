@@ -18,7 +18,7 @@ const Home = ({setSelectedPage}: Props) => {
 
 
   return (
-<section id='home' className='gap-16 bg-gray-20 py-10 md:h-full md:pb-0'>
+<section id='home' className='gap-16 bg-gray-20 py-16 md:h-full md:pb-0 '>
 
   {/* image and main header*/}
 <motion.div className='md:flex mx-auto w-5/6 items-center justify-center md:h-5/6 mt-8'
@@ -26,7 +26,7 @@ const Home = ({setSelectedPage}: Props) => {
 >
 
   {/* main header*/}
-  <div className='z-10 mt-32 md:basis-3/5' >
+  <div className='z-10 mt-24 md:basis-3/5' >
 
     {/* headings*/}
     <motion.div className='md:-mt-20'
